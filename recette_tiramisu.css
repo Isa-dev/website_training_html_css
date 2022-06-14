@@ -1,0 +1,154 @@
+*{
+    overflow: auto;
+}
+
+body {
+    background-color: #8BA1BB;
+    font-family: Arial;
+}
+
+.center{
+    text-align: center;
+}
+
+div.category{
+    /* margin-bottom: -80px; */
+    /* margin-top: 60px; */
+    overflow: visible;
+}
+
+p.category{
+    background-color: #000000;
+    border-radius: 10px;
+    color: #f7f7f7; 
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: -15px;
+    margin-bottom: 0;
+    padding: 10px 20px;
+
+}
+
+div.content{
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    margin: 60px 10%;
+    padding: 0 30px 30px 30px;
+    min-width: 400px;
+    box-shadow: 0px 0px 7px 7px rgba(252, 146, 146, 0.15);
+    overflow: visible;
+}
+
+hr.separator{
+    height: 2px;
+    background-color: #000000;
+    border: none;
+    margin: auto;
+    width: 20%;
+}
+
+h1 {
+    text-align: center;
+}
+
+p.describe{
+    text-align: center;
+    max-width: 600px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+div.infos{
+    position: relative;
+}
+
+img{
+    width: 100%;
+    display: block;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 200px;
+    background-color: lightblue;
+}
+
+table.infos{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #6c829dc0;
+    color: #f7f7f7;
+}
+
+table.infos td{
+    text-align: center;
+    vertical-align: top;
+}
+
+table.infos th{
+    vertical-align: bottom;
+    font-size: 17px;
+    padding-bottom: 7px;
+}
+
+div.column{
+    width: 45%;
+    margin-top: 20px;
+}
+
+.column h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-bottom: 5px solid #6c829d;
+    padding-bottom: 5px;
+}
+
+.column_1 {
+    display: inline-block;
+}
+
+.column_2{
+    float: right;
+}
+
+.ingredients p{
+    border: 1px solid lightgray;
+    text-align: center;
+    padding: 7px 0px;
+    font-size: 14px;
+    margin: 7px 0px 0px 0px;
+}
+
+.digit {
+    background-color: #6c829d;
+    color: #f7f7f7;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+table.steps td{
+    vertical-align: top;
+}
+
+.p_step {
+    font-size: 17px;
+    padding-left: 7px;
+    padding-bottom: 7px;
+}
+
+table.steps tr{
+    height: 40px;
+}
+
